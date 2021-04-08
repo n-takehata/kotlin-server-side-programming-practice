@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/book_manager?characterEncoding=utf8
+    username: root
+    password: mysql
+    driverClassName: com.mysql.jdbc.Driver
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+# ロギングに関する設定
+logging:
+  level:
+    root: INFO
