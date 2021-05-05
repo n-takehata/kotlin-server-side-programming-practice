@@ -1,0 +1,21 @@
+table.book {
+  border: 1px solid #333;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.register_book {
+  border: 1px solid #333;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th.book {
+  border: 1px solid #333;
+}
+
+td.book {
+  border: 1px solid #333;
+}

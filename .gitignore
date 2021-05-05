@@ -1,6 +1,7 @@
 HELP.md
 .gradle
 build/
+!part2/front/book-manager/build
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
