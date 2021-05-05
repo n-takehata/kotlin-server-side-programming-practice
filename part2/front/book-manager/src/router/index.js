@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import HelloWorld from '@/components/HelloWorld'
 import BookList from '@/components/BookList'
 import BookDetail from '@/components/BookDetail'
 import BookRegister from '@/components/BookRegister'
@@ -14,6 +15,11 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   routes: [
+    {
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
     {
       path: '/book/list',
       name: 'BookList',
