@@ -1,5 +1,5 @@
 # 概要
-chapter12ディレクトリが、KtorアプリケーションのGradleプロジェクトとなっています。  
+chapter12ディレクトリが、一つのGradleプロジェクトとなっています。  
 IntelliJ IDEAで [File]->[Open] を選択し、このディレクトリのbuild.gradle.ktsを開いてください。  
 ダイアログが表示されるので、[Open as Project] を選択してください。
 
