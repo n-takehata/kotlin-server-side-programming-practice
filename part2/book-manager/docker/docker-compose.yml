@@ -2,7 +2,7 @@ version: '3'
 services:
   # MySQL
   db:
-    image: mysql:8.0.22
+    image: mysql:8.0.29
     ports:
       - "3306:3306"
     container_name: mysql_host
@@ -15,7 +15,7 @@ services:
       - ./db/sql:/docker-entrypoint-initdb.d
   # Redis
   redis:
-    image: "redis:latest"
+    image: "redis:6.2.0"
     ports:
       - "6379:6379"
     volumes:
