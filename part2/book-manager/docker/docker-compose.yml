@@ -2,7 +2,7 @@ version: '3'
 services:
   # MySQL
   db:
-    image: mysql:8.0.22
+    image: mysql:8.0.29
     ports:
       - "3306:3306"
     container_name: mysql_host
