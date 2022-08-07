@@ -27,7 +27,7 @@ dependencies {
     implementation("mysql:mysql-connector-java:8.0.23") // 追加
     implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("org.springframework.session:spring-session-data-redis")
-    implementation("redis.clients:jedis")
+    implementation("redis.clients:jedis:3.5.1")
     implementation("org.springframework.boot:spring-boot-starter-aop")
     mybatisGenerator("org.mybatis.generator:mybatis-generator-core:1.4.0") // 追加
 
