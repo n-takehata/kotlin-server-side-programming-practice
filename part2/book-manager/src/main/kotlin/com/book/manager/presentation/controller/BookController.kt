@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("book")
-@CrossOrigin
+@CrossOrigin(origins = ["http://localhost:8081"], allowCredentials = "true")
 class BookController(
     private val bookService: BookService
 ) {

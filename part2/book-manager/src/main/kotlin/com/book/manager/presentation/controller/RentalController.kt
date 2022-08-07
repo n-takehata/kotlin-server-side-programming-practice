@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("rental")
-@CrossOrigin
+@CrossOrigin(origins = ["http://localhost:8081"], allowCredentials = "true")
 class RentalController(
     private val rentalService: RentalService
 ) {
